@@ -1,36 +1,68 @@
-/* font-family: 'Alegreya Sans SC', sans-serif;*/
+/* font-family: 'Alegreya Sans SC', sans-serif;
+ <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet"> */
 
 body {
 
-    font-family: 'Alegreya Sans SC',Lucida Grande, Optima,  sans-serif;
+    font-family: "verdana regular",'Alegreya Sans SC',"Lucida Grande", "Optima",  sans-serif;
+    background-color: rgb(243, 243, 243);
 }
+
+/* main style */
 
 header {
 text-align: center;
+overflow: auto;
    
 }
 
-.name {
+.name { 
 
-    margin: 0 28rem 0 0;
+    float: left;
+    margin-left: 3rem;
 }
-
 ul {
 
     list-style: none;
 }
+.nav {
+   float: right;
+   text-transform: uppercase;
+   font-size: 0.6rem;
+   font-weight: 700;
+   
 
+}
+
+.nav li {
+
+    float: left;
+    margin-right: 3rem;
+}
 
 .nav a {
 
-    padding: 1rem;
+   
     display: inline-block;
 }
-.name, .nav,
-.nav li {
 
-    display: inline-block;
+
+.text-intro {
+
+    width: 40%;
+    float: left;
+    margin-left: 3rem;
+    color: rgb(175, 175, 175);
+
 }
+
+.image {
+
+    width: 36%;
+    float: right;
+    margin-right: 3rem;
+}
+
+
 
 
 
