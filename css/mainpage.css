@@ -6,8 +6,13 @@ body {
 }
 
 header {
-
+text-align: center;
    
+}
+
+.name {
+
+    margin: 0 28rem 0 0;
 }
 
 ul {
@@ -15,9 +20,17 @@ ul {
     list-style: none;
 }
 
-h1 {
 
+.nav a {
 
-    
+    padding: 1rem;
+    display: inline-block;
 }
+.name, .nav,
+.nav li {
+
+    display: inline-block;
+}
+
+
 
