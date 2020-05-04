@@ -10,58 +10,49 @@ body {
 /* main style */
 
 header {
-text-align: center;
-overflow: auto;
+
+   
+
+border: 2px solid red;
+margin-bottom: 3rem;
    
 }
 
-.name { 
 
-    float: left;
-    margin-left: 3rem;
-}
+
 ul {
 
     list-style: none;
 }
-.nav {
-   float: right;
-   text-transform: uppercase;
-   font-size: 0.6rem;
-   font-weight: 700;
+
+
+
+
+div {
+
+    border: 2px solid red;
+}
+
+.row {
+
+    
+    border: 2px solid red;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  
+
    
-
-}
-
-.nav li {
-
-    float: left;
-    margin-right: 3rem;
-}
-
-.nav a {
+    
+   
+    
+    }
 
    
-    display: inline-block;
-}
-
-
-.text-intro {
-
-    width: 40%;
-    float: left;
-    margin-left: 3rem;
-    color: rgb(175, 175, 175);
-
-}
-
-.image {
-
-    width: 36%;
-    float: right;
-    margin-right: 3rem;
-}
-
 
 
 
