@@ -1,29 +1,78 @@
 
 
 
-
-
-
-
 @media screen and (min-width: 320px) {
 
-   header,h1,
-   .nav {
+   
+ 
+   .nav, header  {
 
-    flex-direction: column; 
-    align-items: center;
-    flex-wrap: wrap;
+   display: flex; 
+flex-direction: column;
+align-items: center;
+
+
    }
+   
+.nav {
+
+  width: 98%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid 1px red;
+   
+    
 }
+  
+    
+   .nav li {
+
+    width: 94%;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+   
+        
+   }
+
+
+.image {
+
+    width: 66%;
+    padding: 2rem;
+    
+}
+
+.article {
+    text-align: center;
+    
+}
+
+p{
+
+  width: 115%;
+   font-size: 0.8rem;
+    font-weight: 100;
+    color: rgb(168, 167, 167);
+    text-align: center;
+    margin-top: -14px;
+   
+}
+
 
 
 @media screen and (min-width: 768px) {
 
-header,.name,
+header,
 .nav {
 
-  flex-direction: column;  
+  flex-direction: row;  
   align-items: center;
+}
+.image {
+
+    flex-direction: column;
 }
 }
 

@@ -1,3 +1,6 @@
+
+
+
 /* font-family: 'Alegreya Sans SC', sans-serif;
  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet"> */
 
@@ -11,26 +14,16 @@ body {
 
 header {
 
-   
 
-border: 2px solid red;
-margin-bottom: 3rem;
+}
+div .name {
+margin-bottom: 1rem;
    
 }
-
-
-
-ul {
-
-    list-style: none;
-}
-
-
-
 
 div {
 
-    border: 2px solid red;
+   
 }
 
 .row {
@@ -39,6 +32,38 @@ div {
     border: 2px solid red;
 }
 
+h6 {
+
+    text-align: center;
+    
+}
+
+.nav {
+
+    
+    list-style: none; 
+    padding-inline-start: 0px;
+    
+ 
+ }
+
+ .nav li {
+
+
+    padding: 7px;
+    margin: 3px;
+   
+
+    
+
+
+ }
+
+.nav a {
+
+    padding: 1rem;
+   
+}
 
 
 
@@ -46,9 +71,6 @@ div {
 @media screen and (max-width: 1024px) {
   
 
-   
-    
-   
     
     }
 
