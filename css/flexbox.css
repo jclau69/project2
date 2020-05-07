@@ -49,9 +49,14 @@
  
  
      text-align: center;
-     height: 39vh;
+     min-height: 30vh;
      border: red 2px solid;
      width: 90%;
+ }
+
+ h5 {
+    margin-bottom: 0px;
+
  }
  h6 {
  
@@ -62,7 +67,10 @@
      margin-bottom: 2.5rem;
      
  }
- 
+ .row p {
+
+    margin-bottom: 1.5rem;
+ }
  p {
  
    
