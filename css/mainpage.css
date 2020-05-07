@@ -9,15 +9,25 @@
 }
 body {
 
+    width: 100%;
     font-family: "verdana regular",'Alegreya Sans SC',"Lucida Grande", "Optima",  sans-serif;
-    background-color: rgb(243, 243, 243);
+    background-color:white;
+    margin: auto;
 }
 
 /* main style */
 
 header {
 
+   
+    background-color:rgb(245, 245, 245);
 
+
+}
+
+footer {
+
+    background-color:rgb(245, 245, 245);
 }
 div .name {
 margin-bottom: 1rem;
