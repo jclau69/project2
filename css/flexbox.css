@@ -51,9 +51,16 @@
      text-align: center;
      min-height: 15vh;
      width: 90%;
-     border: red 1px solid;
+     
  }
 
+
+ h3 {
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+    
+ }
  h5 {
     margin-bottom: 0px;
 
@@ -61,7 +68,7 @@
  h6 {
  
      text-align: center;
-     font-size: 0.6rem;
+     font-size: 0.83rem;
      margin-top: 15px;
      margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -71,11 +78,12 @@
  .row p {
 
     margin-bottom: 2rem;
+    
  }
  p {
  
    
-     font-size: 74%;
+     font-size: 88%;
      color: rgb(168, 167, 167);
      margin-bottom: 2.5rem;
     
@@ -91,6 +99,27 @@
      width: 95%;
      
  }
+ .contactfoot{
+
+    color: rgb(168, 167, 167);
+    padding: 1rem;
+    line-height: 2rem;
+ }
+ 
+ .backtotop{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    
+ }
+ 
  }
  
  
