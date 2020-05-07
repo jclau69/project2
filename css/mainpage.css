@@ -3,7 +3,10 @@
 
 /* font-family: 'Alegreya Sans SC', sans-serif;
  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet"> */
+* {
 
+    box-sizing: border-box;
+}
 body {
 
     font-family: "verdana regular",'Alegreya Sans SC',"Lucida Grande", "Optima",  sans-serif;
@@ -26,19 +29,9 @@ div {
    
 }
 
-.row {
 
-    
-    border: 2px solid red;
-}
 
-h6 {
-
-    text-align: center;
-    
-}
-
-.nav {
+ul {
 
     
     list-style: none; 
