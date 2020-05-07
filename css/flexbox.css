@@ -5,104 +5,105 @@
 
    
  
-   .nav, header  {
-
-   display: flex; 
-flex-direction: column;
-align-items: center;
-
-
-   }
-   
-.nav {
-
-  width: 98%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: solid 1px red;
-   
+    .nav, header  {
+ 
+    display: flex; 
+ flex-direction: column;
+ align-items: center;
+ 
+ 
+    }
     
-}
+ .nav {
+ 
+   width: 98%;
   
+     justify-content: space-around;
+     flex-wrap: wrap;
+     border: solid 1px red;
     
-   .nav li {
-
-    width: 94%;
-    background-color: #fff;
-    border-radius: 5px;
-    flex-wrap: wrap;
-    text-align: center;
+     
+ }
    
-        
-   }
-
-
-.image {
-
-    width: 66%;
-    margin-bottom: 1rem;
+     
+    .nav li {
+ 
+     width: 94%;
+     background-color: #fff;
+     border-radius: 5px;
+     flex-wrap: wrap;
+     text-align: center;
     
-    
-}
-.article{
-
-
-    text-align: center;
-    height: 13vh;
-    border: red 2px solid;
-    width: 90%;
-}
-h6 {
-
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 35px;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    
-}
-
-p {
-
-  
-    font-size: 74%;
-    color: rgb(168, 167, 167);
+         
+    }
+ 
+ 
+ .image {
+ 
+     width: 66%;
+     margin-bottom: 1rem;
+     
+     
+ }
+ .article{
+ 
+ 
+     text-align: center;
+     height: 39vh;
+     border: red 2px solid;
+     width: 90%;
+ }
+ h6 {
+ 
+     text-align: center;
+     font-size: 0.6rem;
+     margin-top: 35px;
+     margin-top: 2.5rem;
+     margin-bottom: 2.5rem;
+     
+ }
+ 
+ p {
+ 
    
-   
-}
-
-.row {
-
-    text-align: center;
-}
-.item {
-
-    width: 95%;
+     font-size: 74%;
+     color: rgb(168, 167, 167);
     
-}
-}
-
-
-@media screen and (min-width: 768px) {
-
-header,
-.nav {
-
-  flex-direction: row;  
-  align-items: center;
-}
-.image {
-
-    flex-direction: column;
-}
-}
-
-@media screen and (max-width: 1024px) {
-
-    .name,
-.nav { 
-
-    display: flex;
     
-}
-}
+ }
+ 
+ .row {
+ 
+     text-align: center;
+ }
+ .item {
+ 
+     width: 95%;
+     
+ }
+ }
+ 
+ 
+ @media screen and (min-width: 768px) {
+ 
+ header,
+ .nav {
+ 
+   flex-direction: row;  
+   align-items: center;
+ }
+ .image {
+ 
+     flex-direction: column;
+ }
+ }
+ 
+ @media screen and (max-width: 1024px) {
+ 
+     .name,
+ .nav { 
+ 
+     display: flex;
+     
+ }
+ }
