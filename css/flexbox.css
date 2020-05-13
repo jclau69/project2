@@ -3,6 +3,11 @@
 
 @media screen and (min-width: 320px) {
 
+
+    header {
+
+        min-height: 128vh;
+    }
     .text-intro{
 
         padding: 8px;
@@ -99,6 +104,11 @@
  .row {
  
      text-align: center;
+ }
+
+ .sub{
+
+padding: 1rem;
  }
  .item {
  
