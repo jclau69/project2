@@ -3,36 +3,41 @@
 
 @media screen and (min-width: 320px) {
 
-   
- 
-    .nav, header  {
- 
-    display: flex; 
- flex-direction: column;
- align-items: center;
- 
- 
+    .text-intro{
+
+        padding: 8px;
+      
     }
-    
- .nav {
- 
-   width: 98%;
-  
-     justify-content: space-around;
-     flex-wrap: wrap;
-     
-    
-     
- }
+    .name{
+        margin-left:  87px;
+        
+    }
+    .container{
+
+        width: 86%;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 1rem;
+        
+        
+
+
+    }
+    .main-nav{
+        padding-inline-start: 0;
+
+    }
    
-     
-    .nav li {
+    .main-nav li  {
  
-     width: 94%;
+    
      background-color: #fff;
-     border-radius: 5px;
-     flex-wrap: wrap;
-     text-align: center;
+     border-radius: 7px;
+     padding-inline-start: 0;
+     padding: 5px;
+    margin-bottom: 6px;
+     
+     
     
          
     }
@@ -48,7 +53,8 @@
  .article{
  
  
-     text-align: center;
+   
+    margin-left: 16px;
      min-height: 15vh;
      width: 90%;
      
@@ -111,7 +117,8 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
     font-size: 0.8rem;
     font-weight: 900;
     padding: 2rem 1rem 2rem 1rem;
@@ -125,16 +132,26 @@
  
  @media screen and (min-width: 768px) {
  
- header,
- .nav {
- 
-   flex-direction: row;  
-   align-items: center;
- }
+    .main-nav {
+
+        float: right;
+      } 
+        .name{
+    
+            float: left; 
+        }
+
+
  .image {
  
-     flex-direction: column;
+     
  }
+ .main-nav li {
+
+    
+    background-color: transparent;
+ }
+
  }
  
  @media screen and (max-width: 1024px) {

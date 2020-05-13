@@ -9,61 +9,32 @@
 }
 body {
 
+    
     width: 100%;
     font-family: "verdana regular",'Alegreya Sans SC',"Lucida Grande", "Optima",  sans-serif;
     background-color:white;
     margin: auto;
+    
 }
 
 /* main style */
 
 header {
 
-   
+   text-align: center;
     background-color:rgb(245, 245, 245);
 
 
 }
 
-.name {
-
-    font-weight: bolder;
-}
 
 footer {
 
     text-align: center;
     background-color:rgb(245, 245, 245);
 }
-div .name {
-margin-bottom: 1rem;
-   
-}
-
-div {
-
-   
-}
 
 
-
-ul {
-
-    
-    list-style: none; 
-    padding-inline-start: 0px;
-    
- 
- }
-
- .nav li {
-
-
-    padding: 7px;
-    margin: 3px;
-   
-
- }
 
 .nav a {
 
@@ -79,14 +50,16 @@ a {
     text-transform: uppercase;
 }
 
+ul {
 
-@media screen and (max-width: 1024px) {
-  
+    list-style: none;
+}
 
-    
-    }
 
-   
+   .container{
+
+    border: red 1px solid;
+   }
 
 
 
