@@ -1,20 +1,29 @@
 
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px)  {
 
 
     header {
 
+        text-align: center;
         min-height: 128vh;
     }
+
+    .container {
+
+        text-align: center;
+    }
+
+
     .text-intro{
 
         padding: 8px;
       
     }
     .name{
-        margin-left:  87px;
+      margin-left: 80px;
+      padding: 10px;
         
     }
     .container{
@@ -29,7 +38,7 @@
 
     }
     .main-nav{
-        padding-inline-start: 0;
+       padding: 0;
 
     }
    
@@ -41,8 +50,6 @@
      padding-inline-start: 0;
      padding: 5px;
     margin-bottom: 6px;
-     
-     
     
          
     }
@@ -55,27 +62,31 @@
      
      
  }
+ 
+ 
  .article{
  
- 
-   
     margin-left: 16px;
      min-height: 15vh;
      width: 90%;
      
  }
 
-
+ 
  h3 {
     padding-top: 1rem;
     font-size: 0.7rem;
     margin-bottom: 1.5rem;
     
  }
+
+
  h5 {
     margin-bottom: 0px;
 
  }
+
+
  h6 {
  
      text-align: center;
@@ -109,6 +120,7 @@
  .sub{
 
 padding: 1rem;
+
  }
  .item {
  
@@ -137,31 +149,244 @@ padding: 1rem;
     
  }
  
+ figcaption{
+
+    text-align: center;
  }
- 
- 
- @media screen and (min-width: 768px) {
- 
-    .main-nav {
+ }
 
-        float: right;
-      } 
-        .name{
+ @media screen and (min-width: 500px)  {
+
+
+    header {
+
+        text-align: center;
+        min-height: 128vh;
+    }
+
+    .container {
+
+        text-align: center;
+    }
+
+    div .name {
+
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+     }
+
+
+    .text-intro{
+
+        padding: 8px;
+      
+    }
+    .name{
     
-            float: left; 
-        }
+      padding: 10px;
+        
+    }
+    .container{
+
+        width: 86%;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 1rem;
+        
+        
 
 
+    }
+    .main-nav{
+       padding: 0;
+
+    }
+   
+    .main-nav li  {
+ 
+    
+     background-color: #fff;
+     border-radius: 7px;
+     padding-inline-start: 0;
+     padding: 5px;
+    margin-bottom: 6px;
+    
+         
+    }
+ 
+ 
  .image {
  
+     width: 66%;
+     margin-bottom: 1rem;
+     
      
  }
- .main-nav li {
-
-    
-    background-color: transparent;
+ 
+ 
+ .article{
+ 
+    margin-left: 16px;
+     min-height: 15vh;
+     width: 90%;
+     
  }
 
+ 
+ h3 {
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+    
+ }
+
+
+ h5 {
+    margin-bottom: 0px;
+
+ }
+
+
+ h6 {
+ 
+     text-align: center;
+     font-size: 0.83rem;
+     margin-top: 15px;
+     margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    
+     
+ }
+ .row p {
+
+    margin-bottom: 2rem;
+    
+ }
+ p {
+ 
+   
+     font-size: 88%;
+     color: rgb(168, 167, 167);
+     margin-bottom: 2.5rem;
+    
+    
+ }
+ 
+ .row {
+ 
+     text-align: center;
+ }
+
+ .sub{
+
+padding: 1rem;
+
+ }
+ .item {
+ 
+     width: 95%;
+     
+ }
+ .contactfoot{
+
+    color: rgb(168, 167, 167);
+    padding: 1rem;
+    line-height: 2rem;
+ }
+ 
+ .backtotop{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    
+ }
+ 
+ figcaption{
+
+    text-align: center;
+ }
+ }
+
+ @media screen and (min-width: 768px) {
+ 
+
+    header {
+
+        text-align: center;
+        min-height: 86vh;
+    }
+
+.container{
+
+    margin-bottom: 2rem;
+}
+
+
+    .name {
+
+        margin: 0;
+    }
+   
+.row {
+
+    width: 95%;
+}
+    
+   div .name {
+
+       display: flex;
+       justify-content: space-around;
+    }
+
+    .main-nav {
+
+       display: flex;
+       justify-content: center;
+       margin: 0;
+        
+    }
+
+    .main-nav li{
+float: left;
+background-color: transparent;
+margin: 1rem;
+        
+      } 
+ 
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.article {
+
+   
+     min-height: 0;  
+    text-align: left;
+    
+}
+.text-intro {
+
+    padding: 1rem;
+    margin: 0;
+}
+
+ .image{
+
+    width: 50%;
+    padding: 1rem;
+}
  }
  
  @media screen and (max-width: 1024px) {
