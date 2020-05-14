@@ -10,11 +10,6 @@
         min-height: 128vh;
     }
 
-    .container {
-
-        text-align: center;
-    }
-
 
     .text-intro{
 
@@ -389,12 +384,32 @@ margin: 1rem;
 }
  }
  
- @media screen and (max-width: 1024px) {
+ @media screen and (min-width: 1024px) {
  
-     .name,
- .nav { 
+     .container {
+
+        display:flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+     }
  
-     display: flex;
-     
+     div .name {
+
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+     }
+
+     .main-nav {
+
+        margin-top: 3rem;
+        margin-right: -6rem;
+        
+     }
+
+     .main-nav li {
+
+        font-size: 10px;
+     }
  }
- }
+
+ 
