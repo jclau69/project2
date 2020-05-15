@@ -27,6 +27,17 @@ header {
 
 }
 
+.row {
+
+    text-align: center;
+}
+
+.row p {
+
+    margin-bottom: 2rem;
+    
+ }
+
 h1 {
 
     margin-block-start: 0rem;

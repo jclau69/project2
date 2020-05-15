@@ -61,7 +61,7 @@
  
    
      min-height: 15vh;
-   
+     padding: 1rem;
      
  }
 
@@ -90,11 +90,7 @@
     
      
  }
- .row p {
-
-    margin-bottom: 2rem;
-    
- }
+ 
  p {
  
    
@@ -105,11 +101,11 @@
     
  }
  
- .row {
- 
-     text-align: center;
- }
 
+ .first{
+
+    flex-direction: row-reverse;
+ }
  .sub{
 
 padding: 1rem;
@@ -172,7 +168,7 @@ padding: 1rem;
 
         margin: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
      }
 
 
@@ -224,6 +220,7 @@ padding: 1rem;
  
    
      min-height: 20vh;
+     padding: 27px;
     
      
  }
@@ -250,11 +247,7 @@ padding: 1rem;
     
      
  }
- .row p {
-
-    margin-bottom: 2rem;
-    
- }
+ 
  p {
  
    
@@ -265,10 +258,7 @@ padding: 1rem;
     
  }
  
- .row {
  
-     text-align: center;
- }
 
  .sub{
 
@@ -348,14 +338,16 @@ margin: 1rem;
       }
 
  
-.row {
+.section {
 
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    padding: 20px;
+    float: left;
+    width: 50%;
 }
 
+.first {
+
+    flex-direction: row-reverse;
+}
 .article {
 
    
@@ -398,26 +390,72 @@ margin: 1rem;
         display:flex;
         justify-content: space-between;
         margin-top: 1rem;
+        width: 100%;
      }
- 
+
+     header{
+
+        padding: 1rem;
+     }
+ .first {
+
+    flex-direction: row-reverse;
+ }
      div .name {
 
-        margin-left: 1.5rem;
+        
         margin-top: 3rem;
+        margin: 3rem 0 0 10px;
      }
 
      .main-nav {
 
         margin-top: 3rem;
-        margin-right: -6rem;
+        margin-right: -21px;
         
      }
 
      .main-nav li {
 
-        font-size: 10px;
+        font-size: 13px;
      }
 
+.article {
+
+    margin: 0;
+    padding: 15px;
+}
+
+.image {
+
+    padding: 15px;
+}
+
+.row {
+
+    width: 100%;
+    margin: auto 5px;
+    
+}
+
+.section {
+
+    float: left;
+    width: 33%;
+}
+
+.first {
+
+    display: flex;
+    
+}
+
+
+.inline {
+
+    display: inline-block;
+    
+}
      .line{
 
        display: inline-block;
