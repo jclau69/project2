@@ -146,7 +146,13 @@ padding: 1rem;
 
     text-align: center;
  }
- }
+.line{
+
+    display: none;
+}
+
+}
+ 
 
  @media screen and (min-width: 500px)  {
 
@@ -214,7 +220,6 @@ padding: 1rem;
      
  }
  
- 
  .article{
  
    
@@ -223,7 +228,6 @@ padding: 1rem;
      
  }
 
- 
  h3 {
     padding-top: 1rem;
     font-size: 0.7rem;
@@ -231,12 +235,10 @@ padding: 1rem;
     
  }
 
-
  h5 {
     margin-bottom: 0px;
 
  }
-
 
  h6 {
  
@@ -300,6 +302,7 @@ padding: 1rem;
 
     text-align: center;
  }
+ 
  }
 
  @media screen and (min-width: 768px) {
@@ -371,8 +374,23 @@ margin: 1rem;
     width: 50%;
    
 }
+.back a{
+
+    visibility: hidden;
+
  }
- 
+ .line a {
+
+    margin-left: -67px;
+ }
+
+ .line {
+
+   display: inline;
+ }
+}
+
+
  @media screen and (min-width: 1024px) {
  
      .container {
@@ -399,6 +417,15 @@ margin: 1rem;
 
         font-size: 10px;
      }
+
+     .line{
+
+       display: inline-block;
+    }
+    .back {
+    
+        display: none;  
+    }
  }
 
  
