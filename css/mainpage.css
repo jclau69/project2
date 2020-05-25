@@ -31,6 +31,7 @@ body {
 header {
     text-align: center;
     background-color:rgb(245, 245, 245);
+    padding-top: 2rem;
 
 
 }
@@ -38,6 +39,12 @@ header {
 .header {
 
     font-size: 10px;
+}
+
+.name{
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -54,10 +61,6 @@ header {
     border-radius: 7px;
 }
 
-.name {
-
-    padding: 2rem;
-}
 
 .first{
 
@@ -91,7 +94,7 @@ p{
     margin: 0 auto;
     font-size: 15px;
     margin-bottom: 2rem;
-    padding: 1rem;
+   
 }
 
 
