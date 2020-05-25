@@ -25,7 +25,6 @@
     
 }
 
-    header {
 
         text-align: center;
         min-height: 60vh;
@@ -37,19 +36,19 @@
 }
 
 
-    .name {
+.name {
 
         margin: 0;
     }
    
     
-   div .name {
+div .name {
 
        display: flex;
        justify-content: space-around;
     }
 
-    .main-nav {
+.main-nav {
 
        display: flex;
        justify-content: center;
@@ -57,7 +56,7 @@
         
     }
 
-    .main-nav li{
+.main-nav li{
 float: left;
 background-color: transparent;
 margin: 1rem;
@@ -88,7 +87,7 @@ margin: 1rem;
 }
 .text-intro {
 
-    padding: 1rem;
+    padding: 2rem;
     margin: 0;
     text-align: left;
     
@@ -97,7 +96,7 @@ margin: 1rem;
  .image{
 
     width: 50%;
-    padding: 1rem;
+    padding: 2rem;
    
 }
 
@@ -131,23 +130,23 @@ margin: 1rem;
  @media  (min-width: 1024px) {
 
     
-    .section {
+ .section {
 
         float: left;
         width: 33%;
     }
-    div .name {
+ div .name {
 
         float: left;
         margin-top: 2rem;
      }
  
-     .main-nav {
+.main-nav {
  
         float: right;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-right: -13px;
+       
 
          
      }

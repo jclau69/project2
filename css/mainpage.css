@@ -29,7 +29,7 @@ body {
 /* main style */
 
 header {
-text-align: center;
+    text-align: center;
     background-color:rgb(245, 245, 245);
 
 
@@ -56,7 +56,7 @@ text-align: center;
 
 .name {
 
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .first{
@@ -105,14 +105,7 @@ p{
     
  }
 
-h1 {
 
-    margin-block-start: 0rem;
-    margin-block-end: 0rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
-}
 
 h5 {
 
