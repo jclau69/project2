@@ -6,32 +6,94 @@
  * {
 
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
 
     
     width: 100%;
+    text-align: center;
     font-family: "verdana regular",'Alegreya Sans SC',"Lucida Grande", "Optima",  sans-serif;
     background-color:white;
-    margin: auto;
+    margin: 0 auto;
     
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* main style */
 
 header {
-
-   text-align: center;
+text-align: center;
     background-color:rgb(245, 245, 245);
 
 
 }
 
-.row {
+.container {
 
-    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.main-nav li {
+
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 7px;
 }
 
+.name {
+
+    padding: 1rem;
+}
+
+.first{
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+.image{
+
+    width: 75%;
+    margin: 0 auto;
+   
+}
+
+p{
+
+    font-size: 10px;
+    color: rgb(165, 165, 165);
+    
+}
+
+.sub {
+
+    font-size: 12px;
+    color: rgb(165, 165, 165);  
+}
+
+.text-intro {
+
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+
+.main-nav {
+
+    margin-bottom: 2rem;
+}
 .row p {
 
     margin-bottom: 2rem;
@@ -47,13 +109,63 @@ h1 {
 
 }
 
+h5 {
+
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+h6 {
+
+    text-align: center;
+   margin: 3rem auto;
+}
+
+.row{
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section{
+
+    margin: 2rem 0 0 0;
+}
+.item {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
 footer {
 
     text-align: center;
     background-color:rgb(245, 245, 245);
-    padding: 22px;
+ 
 }
 
+.textcontact{
+
+    font-size: 14px;
+    margin-bottom: 2rem;
+
+}
+
+.contactfoot {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: rgb(165, 165, 165);
+
+
+}
+
+span{
+
+    margin-bottom: 1rem;
+    display: inline-block;
+}
 
 
 .nav a {
@@ -73,6 +185,26 @@ a {
 ul {
 
     list-style: none;
+}
+
+.bottom {
+
+display: none;
+}
+
+.backtotop{
+
+    margin-top: 2rem;
+
+}
+.student {
+
+    float: left;
+}
+
+.back{
+
+    float: right;
 }
 
 

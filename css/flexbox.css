@@ -1,302 +1,29 @@
 
 
+ @media screen and (min-width: 768px) {
+ 
 
-@media screen and (min-width: 320px)  {
-
-
-    header {
-
-        text-align: center;
-        min-height: 128vh;
-    }
-
-
-    .name{
+ 
      
-      padding: 10px;
-        
-    }
-    .container{
-
-        width: 86%;
-        display: inline-block;
-        text-align: center;
-        margin-bottom: 1rem;
-        
-        
-
-
-    }
-    .main-nav{
-       padding: 0;
-
-    }
-   
-    .main-nav li  {
- 
-    
-     background-color: #fff;
-     border-radius: 7px;
-     padding-inline-start: 0;
-     padding: 5px;
-    margin-bottom: 6px;
-    
-         
-    }
- 
- figure {
-
-    margin: 0;
- }
- .image {
- 
-     width: 66%;
-     margin-bottom: 1rem;
-     
-     
- }
- 
- 
- .article{
- 
-   
-     min-height: 15vh;
-     padding: 1rem;
-     
- }
-
- 
- h3 {
-    padding-top: 1rem;
-    font-size: 0.7rem;
-    margin-bottom: 1.5rem;
-    
- }
-
-
- h5 {
-    margin-bottom: 0px;
-
- }
-
-
- h6 {
- 
-     text-align: center;
-     font-size: 0.83rem;
-     margin-top: 15px;
-     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    
-     
- }
- 
- p {
- 
-   
-     font-size: 88%;
-     color: rgb(168, 167, 167);
-     margin-bottom: 2.5rem;
-    
-    
- }
- 
-
- .first{
-
-    flex-direction: row-reverse;
- }
- .sub{
-
-padding: 1rem;
-
- }
- .item {
- 
-     width: 95%;
-     
- }
- .contactfoot{
-
-    color: rgb(168, 167, 167);
-    padding: 1rem;
-    line-height: 2rem;
- }
- 
- .backtotop{
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
-    font-size: 0.8rem;
-    font-weight: 900;
-    padding: 2rem 1rem 2rem 1rem;
-    font-size: 0.8rem;
-    font-weight: 900;
-    
- }
- 
- figcaption{
-
-    text-align: center;
- }
-.line{
+.backtotop{
 
     display: none;
 }
 
+.bottom {
+
+    display: block;
 }
- 
-
- @media screen and (min-width: 500px)  {
-
-
-    header {
-
-        text-align: center;
-        min-height: 50vh;
-    }
-
-    .container {
-
-        text-align: center;
-    }
-
-    div .name {
-
-        margin: 0;
-        display: flex;
-        justify-content: space-between;
-     }
 
 
 
-    .name{
-    
-      padding: 10px;
-        
-    }
-    .container{
+.inline li {
 
-        width: 86%;
-        display: inline-block;
-        text-align: center;
-        margin-bottom: 1rem;
-        
-        
-
-
-    }
-    .main-nav{
-       padding: 0;
-
-    }
-   
-    .main-nav li  {
- 
-    
-     background-color: #fff;
-     border-radius: 7px;
-     padding-inline-start: 0;
-     padding: 11px;
-    margin-bottom: 6px;
+    display: inline-block;
+    width: 20%;
     
     
-         
-    }
- 
- 
- .image {
- 
-     width: 66%;
-     margin-bottom: 1rem;
-     
-     
- }
- 
- .article{
- 
-   
-     min-height: 20vh;
-     padding: 27px;
-    
-     
- }
-
- h3 {
-    padding-top: 1rem;
-    font-size: 0.7rem;
-    margin-bottom: 1.5rem;
-    
- }
-
- h5 {
-    margin-bottom: 0px;
-
- }
-
- h6 {
- 
-     text-align: center;
-     font-size: 0.83rem;
-     margin-top: 15px;
-     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    
-     
- }
- 
- p {
- 
-   
-     font-size: 88%;
-     color: rgb(168, 167, 167);
-     margin-bottom: 2.5rem;
-    
-    
- }
- 
- 
-
- .sub{
-
-padding: 1rem;
-
- }
- 
- .contactfoot{
-
-    color: rgb(168, 167, 167);
-    padding: 1rem;
-    line-height: 2rem;
- }
- 
- .backtotop{
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
-    font-size: 0.8rem;
-    font-weight: 900;
-    padding: 2rem 1rem 2rem 1rem;
-    font-size: 0.8rem;
-    font-weight: 900;
-    
- }
- 
- figcaption{
-
-    text-align: center;
- }
- 
- }
-
- @media screen and (min-width: 768px) {
- 
+}
 
     header {
 
@@ -346,7 +73,10 @@ margin: 1rem;
 
 .first {
 
+    display: flex;
     flex-direction: row-reverse;
+    
+
 }
 .article {
 
@@ -357,8 +87,10 @@ margin: 1rem;
 }
 .text-intro {
 
-    
+    padding: 0;
     margin: 0;
+    text-align: left;
+    
 }
 
  .image{
@@ -366,24 +98,35 @@ margin: 1rem;
     width: 50%;
    
 }
-.back a{
 
-    visibility: hidden;
+.bottom {
 
- }
- .line a {
+    margin-top: 1rem;
+}
 
-    margin-left: -67px;
- }
+.namebottom{
 
- .line {
 
-   display: inline;
- }
+    float: left;
+    font-size: 10px;
+}
+.mainbottom {
+
+    float: right;
+}
+
+.mainbottom li {
+
+    float: left;
+    margin-left: 2rem;
+    font-size: 10px;
 }
 
 
- @media screen and (min-width: 1024px) {
+}
+
+
+ @media  (min-width: 1024px) {
  
      .container {
 
@@ -456,14 +199,5 @@ margin: 1rem;
     display: inline-block;
     
 }
-     .line{
-
-       display: inline-block;
-    }
-    .back {
     
-        display: none;  
-    }
- }
-
  

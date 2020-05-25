@@ -1,6 +1,8 @@
 <!DOCTYPE html >
-<html>
+<html lang="en" >
+ 
   <head>
+   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>project2</title>
@@ -19,57 +21,63 @@
   
   <header>
   
-    <div class="container">
+    <div class="container ">
      
-  <div><h1 class="name"><a href="#">JCLau</a></h1></div> 
-   <div> <ul class="main-nav">
+  <div class="header">
+    
+    <h1 class="name"><a href="#">JCLau</a></h1>
+   
+     <ul class="main-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#porto">Portofolio</a></li>
         <li><a href="#conto">Contact</a></li>
         
           </ul>
-     </div> 
-    </div>
+  </div>
+    
    
-    <div class=" row first ">
+    <div class="first">
 
     <img class = "image" src="images/responsive-layout-profile.png" alt="image ">
 
-    <div class="article">
-    <p class= "text-intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning
-  front-end web development at Treehouse and I am excited to put all my skills to use!
+    <p class= "text-intro">Hi! I'm a front-end developer who loves<br> responsive design and css. I recently<br> finished learning
+  front-end web<br> development at Treehouse and I am<br> excited to put all my skills to use!
     </p>
-  
-</div>
+  </div>
+
 </div>
 </header>
 
 
 
-      <h6 ><a id="porto">PORTOFOLIO</a></h6>
+      
 
-<div class="row">
- 
-  <div class= "section">
+<main>
+
+ <div class="container clearfix">
+  
+    <h6 ><a id="porto">PORTOFOLIO</a></h6>
+
+    <div class= "section">
   <figure>
    <img class="image1 item" src="images/portfolio-1.png" alt= "marketing">
       <figcaption>
       <h5>Marketing Page</h5>
       <p class="sub">This project shows the front page
-      of a marketing<br> website meant for a specific
+      of a<br> marketing website meant for a specific<br>
      business I'm interested in.</p>
 
       </figcaption>
   </figure>
+ </div>
 
-</div>
-<div class= "section">
+<div class= "section ">
     <figure>
        <img class="image2 item" src="images/portfolio-2.png" alt="search">
        <figcaption>
        <h5>Search Page</h5>
-       <p class="sub">This project searches through a specific
-  database<br> to find information that the user is trying to lookup.</p>
+       <p class="sub">This project searches through a specific<br>
+  database to find information that the<br> user is trying to lookup.</p>
        </figcaption>
       </figure>
 </div>
@@ -80,7 +88,7 @@
         
         <img  class="image3 item" src="images/portfolio-3.png" alt="travel App"> 
         <figcaption>
-        <h5>Travel App</h5><p class="sub">This project compares travel times based on different<br> transportation
+        <h5>Travel App</h5><p class="sub">This project compares travel times<br> based on different transportation<br>
   methods and tells you the best one.</p>
   
 </figcaption>
@@ -92,7 +100,7 @@
           
            <img  class="image4 item" src="images/portfolio-4.png" alt="travel App">
            <figcaption>
-           <h5>Map of Favorite Spots</h5><p class="sub">This project uses mapping apis to plot<br>points for my favorite spots in the city<br>
+           <h5>Map of Favorite Spots</h5><p class="sub">This project uses mapping apis to plot<br> points for my favorite spots in the city<br>
     for a do-it-yourself walking tour.</p>
   </figcaption>
            </figure>
@@ -101,7 +109,7 @@
            <figure >
               <img  class="image5 item" src="images/portfolio-5.png" alt="travel App"> 
               <figcaption>
-              <h5>Photo Gallery</h5><p class="sub">This project shows pictures from a <br>recent trip to the viewer and allows<br> them to easily navigate 
+              <h5>Photo Gallery</h5><p class="sub">This project shows pictures from a <br>recent trip to the viewer and allows <br>them to easily navigate 
     through photos.</p>
   </figcaption>
       
@@ -112,17 +120,19 @@
             <figure>
                  <img  class="image6 item" src="images/portfolio-6.png" alt="travel App"> 
                  <figcaption>
-                 <h5>Calculator</h5><p class="sub">Someone can enter in the numbers<br>they want and press the big blue<br>button and get the result:</p>
+                 <h5>Calculator</h5><p class="sub">Someone can enter in the numbers <br>they want and press the big blue<br>button and get the result.</p>
                 </figcaption>
             </figure>
               </div>
-            
             </div>
-  <footer>
+         
+            </main>
 
-    <h3><a id="conto"><strong>CONTACT</strong></a></h3>
+  <footer class="clearfix">
+<div class= "container" id="conto">
+    <h5><a ><strong>CONTACT</strong></a></h5>
 
-    <P>If you are interested in chatting or want more informations<br> about what I've been working on, I'd love to hear from you!</P>
+    <p class= "textcontact">If you are interested in chatting or want more informations<br> about what I've been working on, I'd love to hear from you!</p>
 
     <div class="contactfoot">
     <span>Phone<strong>&emsp;+1 (123)456-7890</strong></span><br>
@@ -132,17 +142,24 @@
     
   <hr>
 
-  <div class="backtotop">
+  <div class="backtotop  clearfix">
 
-    <div class="student "><a  href="#top">JCLAU</a></div>
-    <div class="back "><a href="#top">Back to Top</a></div>
-    <div class="inline">
-    <div class="first line "><a href="#">Home</a></div>
-    <div class="second line"><a href="#porto">Portofolio</a></div>
-    <div class="second line"><a href="#conto">Contact</a></div>
+    <p class="student "><a  href="#top">JCLAU</a></p>
+    <p class="back "><a href="#top">Back to Top</a></p>
   </div>
-  </div>
+    <nav class="bottom clearfix">
+
+      <h3 class="namebottom"><a href="#">JCLau</a></h3>
+   
+      <ul class="mainbottom">
+         <li><a href="#">Home</a></li>
+         <li><a href="#porto">Portofolio</a></li>
+         <li><a href="#conto">Contact</a></li>
+         
+           </ul>
   
+  </div>
+
 
   </footer>
 </body>
