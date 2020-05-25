@@ -61,6 +61,7 @@
 float: left;
 background-color: transparent;
 margin: 1rem;
+
         
       }
 
@@ -87,7 +88,7 @@ margin: 1rem;
 }
 .text-intro {
 
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     text-align: left;
     
@@ -96,6 +97,7 @@ margin: 1rem;
  .image{
 
     width: 50%;
+    padding: 1rem;
    
 }
 
@@ -127,77 +129,27 @@ margin: 1rem;
 
 
  @media  (min-width: 1024px) {
+
+    
+    .section {
+
+        float: left;
+        width: 33%;
+    }
+    div .name {
+
+        float: left;
+        margin-top: 2rem;
+     }
  
-     .container {
-
-        display:flex;
-        justify-content: space-between;
-        margin-top: 1rem;
-        width: 100%;
-     }
-
-     header{
-
-        padding: 1rem;
-     }
- .first {
-
-    flex-direction: row-reverse;
- }
-     div .name {
-
-        
-        margin-top: 3rem;
-        margin: 3rem 0 0 10px;
-     }
-
      .main-nav {
-
-        margin-top: 3rem;
-        margin-right: -21px;
-        
-     }
-
-     .main-nav li {
-
-        font-size: 13px;
-     }
-
-.article {
-
-    margin: 0;
-    padding: 15px;
-}
-
-.image {
-
-    padding: 15px;
-}
-
-.row {
-
-    width: 100%;
-    margin: auto 5px;
-    
-}
-
-.section {
-
-    float: left;
-    width: 33%;
-}
-
-.first {
-
-    display: flex;
-    
-}
-
-
-.inline {
-
-    display: inline-block;
-    
-}
-    
  
+        float: right;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: -13px;
+
+         
+     }
+     
+  }

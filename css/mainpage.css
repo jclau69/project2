@@ -35,6 +35,11 @@ text-align: center;
 
 }
 
+.header {
+
+    font-size: 10px;
+}
+
 .container {
 
     width: 90%;
