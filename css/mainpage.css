@@ -72,6 +72,7 @@ header {
 
     width: 75%;
     margin: 0 auto;
+    border-radius: 10px;
    
 }
 
@@ -139,6 +140,29 @@ h6 {
     width: 95%;
     margin: 0 auto;
     margin-bottom: 2rem;
+}
+
+.skills {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-family: 'GFS Neohellenic';
+   
+
+}
+
+.skills h5 {
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+
+}
+
+.skills p {
+
+    color: lime;
 }
 footer {
 
