@@ -1,0 +1,152 @@
+
+
+ @media screen and (min-width: 768px) {
+ 
+
+ 
+     
+.backtotop{
+
+    display: none;
+}
+
+.bottom {
+
+    display: block;
+}
+
+
+
+.inline li {
+
+    display: inline-block;
+    width: 20%;
+    
+    
+}
+
+
+.container{
+
+    margin-bottom: 2rem;
+}
+
+
+.name {
+
+        margin: 0;
+    }
+   
+    
+div .name {
+
+       display: flex;
+       justify-content: space-around;
+    }
+
+.main-nav {
+
+       display: flex;
+       justify-content: center;
+       margin: 0;
+        
+    }
+
+.main-nav li{
+float: left;
+background-color: transparent;
+margin: 1rem;
+
+        
+      }
+
+ 
+.section {
+
+    float: left;
+    width: 50%;
+}
+
+.first {
+
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+.article {
+
+   
+     min-height: 0;  
+    text-align: left;
+    
+}
+.text-intro {
+
+   
+    margin: 0;
+    text-align: left;
+    margin-right: 1rem;
+    padding-top: 0;
+    
+}
+
+ .image{
+
+    width: 50%;
+    margin-left: 1rem;
+  
+   
+}
+
+.bottom {
+
+    margin-top: 1rem;
+}
+
+.namebottom{
+
+
+    float: left;
+    font-size: 10px;
+}
+.mainbottom {
+
+    float: right;
+}
+
+.mainbottom li {
+
+    float: left;
+    margin-left: 2rem;
+    font-size: 10px;
+}
+
+
+}
+
+
+ @media  (min-width: 1024px) {
+
+    
+ .section {
+
+        float: left;
+        width: 33%;
+    }
+ div .name {
+
+        float: left;
+        margin-top: 2rem;
+     }
+ 
+.main-nav {
+ 
+        float: right;
+        margin-bottom: 2rem;
+       
+
+         
+     }
+     
+  }
